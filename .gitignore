@@ -1,0 +1,31 @@
+## Visual Studio ve .NET için gitignore
+
+# Build sonuçları
+bin/
+obj/
+
+# Visual Studio önbellek/seçenekleri
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider IDE
+.idea/
+
+# VS Code
+.vscode/
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# Test sonuçları
+TestResults/
+
+# Geçici dosyalar
+*.tmp
+*.log
+*.cache
+
